@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.container a {
+  color: white; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #02475e; }
+
+
+.pokemon-detail { 
+  border-radius: 10px;
+  border: 10px;
+  background-color:blanchedalmond;
+  padding: 10px;
+}
+
+.pokemon-sprite {
+  background: #d8e3e7;
+  margin-bottom: 10px;
+}
+
+.pokemon-name { 
+  text-align: center;
+}
+
+.pokemon-type {
+  display: flex;
+}
+
+.pokemon-types, .pokemon-types-grass, .pokemon-types-poison, .pokemon-types-normal, .pokemon-types-fir, .pokemon-types-water, .pokemon-types-electric, .pokemon-types-ice, .pokemon-types-fire,  
+.pokemon-types-fighting, .pokemon-types-ground, .pokemon-types-flying, .pokemon-types-psychic, .pokemon-types-bug, .pokemon-types-rock, .pokemon-types-ghost, .pokemon-types-dark, .pokemon-types-dragon, .pokemon-types-steel
+, .pokemon-types-fairy, .pokemon-types-fighting {
+  height: 20px;
+  width: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 60px; 
+  padding: 10px;
+  margin: 5px;
+  text-shadow: 1px 1px black;
+}
+
+.pokemon-types-grass {
+  background-color: green; 
+}
+
+.pokemon-types-poison {
+  background-color: purple; 
+}
+
+.pokemon-types-normal {
+  background-color: #A8A878;
+}
+
+.pokemon-types-fire {
+  background-color: #F08030;
+}
+
+.pokemon-types-water {
+  background-color: #6890F0; 
+}
+
+.pokemon-types-electric {
+  background-color: #F8D030;
+}
+
+.pokemon-types-ice {
+  background-color: #98D8D8; 
+}
+
+.pokemon-types-fighting {
+  background-color: #C03028; 
+}
+
+.pokemon-types-ground {
+  background-color: #E0C068;
+}
+
+.pokemon-types-flying {
+  background-color: #A890F0;
+}
+
+.pokemon-types-psychic {
+  background-color: #F85888;
+}
+
+.pokemon-types-bug {
+  background-color: #A8B820;
+}
+
+.pokemon-types-rock {
+  background-color: #B8A038;
+}
+
+.pokemon-types-ghost {
+  background-color: #705898;
+}
+
+.pokemon-types-dark {
+  background-color: #705848;
+}
+
+.pokemon-types-dragon {
+  background-color: #7038F8;
+}
+
+.pokemon-types-steel {
+  background-color: #B8B8D0;
+}
+
+.pokemon-types-fairy {
+  background-color: #F0B6BC;
+}

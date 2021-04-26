@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="pokemon-detail">
+        <div class="pokemon-sprite">
+            <img src="{{ pokemon.sprites.other['official-artwork'].front_default }}" alt="pokemon.name picture" height="250px" width="250px"> 
+        </div> 
+        <div class="pokemon-name">
+            {{ pokemon.name|upper }}
+        </div>
+        <h3>Height: </h3> 
+        {{ pokemon.height }}
+        <h3>TYPE:</h3>
+        <div class="pokemon-type">
+            {% for type in pokemon.types %}
+            <div class="pokemon-types-{{ type.type.name }}">
+                {{ type.type.name|upper }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %} 

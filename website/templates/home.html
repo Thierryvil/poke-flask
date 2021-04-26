@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for pokemon in data %}    
+    <div class="box">
+        <a href="{{ url_for('views.pokemon', id=pokemon.id) }}">{{ pokemon.name|capitalize }}</a>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ pokemon.id }}.png">
+        {{ data.id }}
+      </div>
+    {% endfor %}
+{% endblock %} 
