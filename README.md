@@ -1,5 +1,5 @@
 <h1 align="center"> poke-flask</h1>
-<p align="center">Uma simples aplicação feita em [python](https://www.python.org/ "python"), utitlizando o framework [Flask](https://github.com/pallets/flask "Flask"), para obter dados de uma API RESTFul (https://pokeapi.co/)</p>
+<p align="center">Uma simples aplicação feita em [python](https://www.python.org/), utitlizando o framework [Flask](https://github.com/pallets/flask "Flask"), para obter dados de uma API RESTFul (https://pokeapi.co/)</p>
 
 <p align="center">
  <a href="#screenshots">Screenshots</a> •
