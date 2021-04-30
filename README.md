@@ -1,10 +1,6 @@
 
 <h1 align="center"> poke-flask</h1>
-<<<<<<< HEAD
 <p align="center">Uma simples aplicação feita em <a hreff="https://www.python.org/">python</a>, utitlizando o framework <a hreff="https://github.com/pallets/flask">flask</a>, para obter dados de uma API RESTFul (https://pokeapi.co/)</p>
-=======
-<p align="center">Uma simples aplicação feita em [python](https://www.python.org/), utitlizando o framework [Flask](https://github.com/pallets/flask), para obter dados de uma API RESTFul (https://pokeapi.co/)</p>
->>>>>>> e8ac553a34571e7630196b94859862903ba17b6b
 
 <p align="center">
  <a href="#screenshots">Screenshots</a> •
