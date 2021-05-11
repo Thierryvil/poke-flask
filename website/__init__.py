@@ -1,5 +1,4 @@
 from flask import Flask 
-from flask_caching import Cache
 
 def create_app():
     app = Flask(__name__)
