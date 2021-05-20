@@ -1,6 +1,5 @@
-from flask import Blueprint, render_template, abort, jsonify
+from flask import Blueprint, render_template, abort
 import requests 
-import json 
 
 views = Blueprint('views', __name__)
 
